@@ -1,3 +1,5 @@
+
+
 //ARDUINO OBSTACLE AVOIDING CAR//
 // Before uploading the code you have to install the necessary library//
 //AFMotor Library https://learn.adafruit.com/adafruit-motor-shield/library-install //
@@ -6,10 +8,9 @@
 // To Install the libraries go to sketch >> Include Library >> Add .ZIP File >> Select the Downloaded ZIP files From the Above links //
 
 
-
+#include <SR04.h>
 #include <NewPing.h>
 #include <Servo.h> 
-#include "SR04.h"
 
 
 /*
@@ -105,7 +106,15 @@ void setup() {
 /* Motors */
 
   //velocità
-  pinMode(6,OUTPUT);
+  pinMode(SXIN1, OUTPUT);
+  pinMode(SXIN2, OUTPUT);
+  pinMode(SXIN3, OUTPUT);
+  pinMode(SXIN4, OUTPUT);
+  pinMode(DXIN1, OUTPUT);
+  pinMode(DXIN2, OUTPUT);
+  pinMode(DXIN3, OUTPUT);
+  pinMode(DXIN4, OUTPUT);
+
 
   //1 Anteriore SX - 1
    motor1pin1 = SXIN3;
