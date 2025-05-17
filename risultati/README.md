@@ -85,7 +85,8 @@ void loop() {
     Lavorare in gruppo, seguendo un progetto concreto dall'idea alla realizzazione
 
 📸 Galleria del progetto
-![Rover STEM](R_STEM_1.jpg)
+![Rover STEM](R_STEM_1.jpeg)
+![Rover STEM](R_STEM_2.jpeg)
 
 ✨ Ringraziamenti
 
